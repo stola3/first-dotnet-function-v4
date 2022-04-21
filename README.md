@@ -21,3 +21,14 @@ First .net Azure Function (v4). Usage with care!
     cd src
     func start
     ```
+* Example POST `http://localhost:7071/api/users` with body
+    ```
+    {
+    "givenName" : "Mairo",
+    "surename" : "Super",
+    "SamAccountName" : "super.mario",
+    "userPrincipalName" : "super.mario",
+    "EmailAddress" : "super.mario@localhost",
+    "Path" : "DN-Path"
+    }
+    ```
