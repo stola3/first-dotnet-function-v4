@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unico.Admin.Api", "src\Unico.Admin.Api.csproj", "{BE800A6E-3ED1-497D-A28A-4A8C72A80E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2318BBF2-2B86-4B72-B899-0CE6EC461990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unit-tests", "tests\unit-tests\unit-tests.csproj", "{00017DF1-BF44-42E5-96B6-975C9F784576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE800A6E-3ED1-497D-A28A-4A8C72A80E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE800A6E-3ED1-497D-A28A-4A8C72A80E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE800A6E-3ED1-497D-A28A-4A8C72A80E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE800A6E-3ED1-497D-A28A-4A8C72A80E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00017DF1-BF44-42E5-96B6-975C9F784576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00017DF1-BF44-42E5-96B6-975C9F784576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00017DF1-BF44-42E5-96B6-975C9F784576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00017DF1-BF44-42E5-96B6-975C9F784576}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00017DF1-BF44-42E5-96B6-975C9F784576} = {2318BBF2-2B86-4B72-B899-0CE6EC461990}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25DBA916-2582-4A29-8EBB-612BE616D145}
+	EndGlobalSection
+EndGlobal
